@@ -23,7 +23,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.timeline-item, .impact-card, .skills-group, .contact-card').forEach(el => {
+document.querySelectorAll('.timeline-item, .impact-card, .skills-group, .contact-card, .project-card').forEach(el => {
     el.style.opacity = '0';
     observer.observe(el);
 });
