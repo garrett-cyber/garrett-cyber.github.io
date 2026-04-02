@@ -712,7 +712,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 /* Availability Card */
@@ -721,6 +721,7 @@ ul {
     border: 1px solid var(--card-border);
     border-radius: var(--radius);
     padding: 2rem;
+    height: 100%;
 }
 
 .availability-title {
