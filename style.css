@@ -282,6 +282,44 @@ ul {
     color: var(--card-text-muted);
 }
 
+/* ── Logo Bar ── */
+.logo-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 2rem;
+    text-align: center;
+}
+
+.logo-bar-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.logo-bar-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.company-logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    opacity: 0.35;
+    letter-spacing: -0.02em;
+    transition: opacity 0.2s;
+}
+
+.company-logo:hover {
+    opacity: 0.7;
+}
+
 /* ── Impact Section ── */
 .impact {
     max-width: 1200px;
