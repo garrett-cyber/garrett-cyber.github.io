@@ -115,7 +115,7 @@ ul {
 .hero {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8rem 2rem 4rem;
+    padding: 7rem 2rem 2rem;
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 4rem;
@@ -286,11 +286,11 @@ ul {
 .impact {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .section-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .section-tag {
@@ -358,7 +358,7 @@ ul {
 .career {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .timeline {
@@ -496,7 +496,7 @@ ul {
 .projects {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .projects-grid {
@@ -624,7 +624,7 @@ ul {
 .skills {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .skills-grid {
@@ -701,7 +701,7 @@ ul {
 .contact {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .contact-grid {
