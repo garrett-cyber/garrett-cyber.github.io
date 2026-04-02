@@ -446,6 +446,10 @@ ul {
     padding-left: 1rem;
 }
 
+.timeline-card-compact .timeline-highlights {
+    margin-bottom: 0;
+}
+
 .timeline-highlights {
     display: flex;
     flex-wrap: wrap;
