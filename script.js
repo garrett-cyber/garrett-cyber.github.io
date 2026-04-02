@@ -43,7 +43,7 @@ window.addEventListener('scroll', () => {
             navItems.forEach(link => {
                 link.style.color = '';
                 if (link.getAttribute('href') === '#' + id) {
-                    link.style.color = '#e5e5e5';
+                    link.style.color = '#1a1a1a';
                 }
             });
         }
