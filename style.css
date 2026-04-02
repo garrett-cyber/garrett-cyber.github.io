@@ -704,14 +704,124 @@ ul {
     padding: 3rem 2rem;
 }
 
-.contact-grid {
-    max-width: 700px;
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    align-items: start;
 }
 
-.contact-links {
+/* Availability Card */
+.availability-card {
+    background: var(--bg-card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 2rem;
+}
+
+.availability-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--card-text);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.availability-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4ade80;
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(74, 222, 128, 0.5);
+}
+
+.availability-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.availability-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.availability-label {
+    font-size: 0.9rem;
+    color: var(--card-text-muted);
+    font-weight: 400;
+}
+
+.avail-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.3rem 0.75rem;
+    border-radius: 100px;
+}
+
+.avail-open {
+    color: #4ade80;
+    border: 1px solid rgba(74, 222, 128, 0.3);
+    background: rgba(74, 222, 128, 0.1);
+}
+
+.avail-closed {
+    color: var(--card-text-dim);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.availability-email-label {
+    font-size: 0.75rem;
+    color: var(--card-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.availability-email-value {
+    font-size: 0.95rem;
+    color: #c8e6c9;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.availability-email-value:hover {
+    color: var(--card-text);
+}
+
+/* Contact right column */
+.contact-right {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+}
+
+.contact-bio {
+    background: var(--bg-card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    font-size: 0.85rem;
+    color: var(--card-text-muted);
+    line-height: 1.6;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+.contact-bio strong {
+    color: var(--card-text);
 }
 
 .contact-card {
@@ -842,6 +952,10 @@ ul {
     }
 
     .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-layout {
         grid-template-columns: 1fr;
     }
 
