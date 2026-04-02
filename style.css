@@ -426,7 +426,16 @@ ul {
 .timeline-company {
     font-size: 0.875rem;
     color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.timeline-context {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.65;
     margin-bottom: 1rem;
+    border-left: 2px solid var(--accent);
+    padding-left: 1rem;
 }
 
 .timeline-highlights {
